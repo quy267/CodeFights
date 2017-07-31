@@ -1,0 +1,1 @@
+{"version":3,"sources":["../Candies.js"],"names":["candies","n","m","console","log"],"mappings":";;AAAA,SAASA,OAAT,CAAiBC,CAAjB,EAAoBC,CAApB,EAAuB;AACnB,WAAOA,IAAKA,IAAID,CAAhB;AACH;;AAEDE,QAAQC,GAAR,CAAYJ,QAAQ,CAAR,EAAW,EAAX,CAAZ","file":"Candies.js","sourcesContent":["function candies(n, m) {\r\n    return m - (m % n);\r\n}\r\n\r\nconsole.log(candies(3, 10));\r\n"]}
